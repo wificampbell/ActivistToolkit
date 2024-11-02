@@ -1,0 +1,937 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/*color for when u highlight a text*/
+::selection 
+{
+  background: #ffffe0;
+}
+
+body
+{
+  background: linear-gradient(#5F0F40, #6F0D75);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*top of all pages*/
+.Intro 
+{
+  height : 700px;
+  background-image : url("photos/sad.png");
+  background-size : cover;    
+  background-repeat: no-repeat;
+  padding-top : 300px;
+  margin-left : -9px;
+  margin-top : -9px;
+  text-align: left;
+}
+
+.intro-title 
+{
+  text-align: left;
+  color: white;
+  background-color: rgba(251, 139, 36, 0.5); 
+  padding: 80px;
+  font-size: 600%;
+  font-family: monospaced; 
+  -webkit-backdrop-filter: blur(3px);
+}
+
+.nav
+{
+  list-style-type : none;
+  overflow : hidden;
+  background-color: #5F0F40;
+  height: 30px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top : -9px;
+  margin-left : -9px;
+  margin-bottom : 9px;
+  font-size : 150%;
+  padding-bottom : 20px;
+  /*position : fixed;
+  top : 0;*/
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+li a
+  {
+    text-decoration : none;
+    font-size : 1.3em;
+    padding : 1em;
+    color : white;
+  }
+  
+li a:hover
+{
+  background-color: black;
+  padding-top : 10px;
+  padding-bottom : 20px;
+}
+
+/*shapes at top of all pages*/
+.parallelogram 
+{
+	width: 100px;
+	height: 50px;
+	background-color: #5F0F40;
+  margin-left : 300px;
+  padding-left : 200px;
+  transform: skew(20deg);
+  box-shadow : 5px 10px 15px black;
+}
+
+
+.triangle-right 
+{
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid #E36414;
+	border-bottom: 25px solid transparent;
+  margin-left : 300px;
+  margin-top : -50px;
+  transform: skew(20deg);
+}
+
+.parallelogram2 
+{
+	width: 100px;
+	height: 50px;
+	background-color: #5F0F40;
+  margin-left : 900px;
+  padding-left : 200px;
+  transform: skew(20deg);
+  margin-top : -48px;
+  box-shadow : 5px 10px 15px gray;
+}
+
+.triangle-right2 
+{
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid #E36414;
+	border-bottom: 25px solid transparent;
+  margin-left : 900px;
+  margin-top : -50px;
+  transform: skew(20deg);
+}
+
+
+
+#contact
+{
+  color : white;
+  margin-left : 20px;
+}
+
+
+
+/*bottom page 1*/
+#factDisplay
+{
+  background-color: black;
+  max-width : 500px;
+  text-align : center;
+  margin-left : 470px;
+  padding-top : 15px;
+  font-size : 200%;
+  margin-top : 100px;
+  padding-bottom : 30px;
+  border-radius: 20px;
+  color : white;
+  box-shadow : 13px 13px #9A031E;
+}
+
+#factBtn
+{
+  font-family : monospaced;
+  background-color: #5F0F40;
+  color : white;
+  border-radius: 15px;
+  padding-top : 10px;
+  padding-bottom : 10px;
+  font-size : 150%;
+  padding-left : 10px;
+}
+
+#fact
+{
+  text-align: center;
+  margin-top : 50px;
+  color : white;
+  font-family : monospaced;
+  font-size : 200%;
+  margin-left : 20px;
+  margin-right : 20px;
+}
+/*dividers*/
+  hr.rounded 
+{
+  margin-top : -5px;
+  margin-bottom : 30px;
+  border: 5px solid #E36414;
+  border-radius: 5px;
+  margin-left : -10px;
+}
+
+  hr.rounded2 
+{
+  margin-top : -5px;
+  margin-bottom : 30px;
+  border: 5px solid #5F0F40;
+}
+
+
+  hr.rounded_signs 
+{
+  margin-top : -5px;
+  margin-bottom : 0px;
+  border: 5px solid #E36414;
+  border-radius: 5px;
+  margin-left : -10px;
+}
+
+hr.rounded_sh1
+{
+  margin-top : -5px;
+  margin-bottom : 0px;
+  border: 5px solid white;
+  margin-left : -10px;
+  width : 60px;
+}
+
+hr.rounded_sh2
+{
+  margin-top : -5px;
+  margin-bottom : 0px;
+  border: 5px solid white;
+  margin-left : 1360px;
+  width : 70px;
+}
+
+hr.rounded_sh3
+{
+  margin-top : -40px;
+  margin-bottom : 0px;
+  border: 5px solid white;
+  margin-left : -30px;
+  width : 70px;
+}
+
+hr.rounded_sh4
+{
+  margin-top : 0px;
+  margin-bottom : 0px;
+  border: 5px solid white;
+  margin-left : 1350px;
+  width : 70px;
+}
+
+
+/*1st box page 1*/
+.box
+{
+  background: linear-gradient(#E36414, #FB8B24);
+  max-width : 700px;
+  margin-left : 380px;
+  padding-bottom : 30px;
+  padding-top : 20px;
+  margin-top : -30px;
+  box-shadow : 0px 30px 50px black;
+  margin-bottom : -90px;
+}
+
+#learnthefacts
+{
+  color : #5F0F40;
+  font-size : 400%;
+  margin-top : -10px;
+  text-shadow : 2px 0px 0px white;
+}
+
+.info
+{
+  text-align: center;
+  font-size : 150%;
+  margin-left : 30px;
+  margin-right : 30px;
+  color : black;
+}
+
+#bottom, #bottom2
+{
+  background-color : black;
+  color: white;
+  padding-top : 40px;
+  margin-top : -60px;
+  padding-bottom : 40px;
+  border-top: 15px solid #E36414;
+  margin-left : -1%;
+  padding-left : 500px;
+  display : flex;
+  /*position: fixed;*/
+  bottom: 0;
+  width: 100%;
+}
+
+/*#bottom2
+{
+  background-color : black;
+  color : white;
+  padding-top : 20px;
+  margin-top : -60px;
+  padding-bottom : 20px;
+  border-top: 15px solid #E36414;
+  margin-left : -1%;
+  padding-left : 500px;
+}*/
+
+/*2nd box first page*/
+#misconseptions
+{
+  margin-top : 90px;
+  font-size : 400%;
+  color : #5F0F40;
+  padding-top : 40px;
+  text-shadow : 2px 0px 0px white;
+}
+
+
+#misphotos 
+  {
+  margin: 5px;
+  padding-right : 60px;
+  margin-left : 0px;
+}
+
+#misphotos img 
+{
+  object-fit: cover;
+  height: 230px;
+  width : 230px;
+  margin-left : 5px;
+  padding-left : 30px;
+  margin-right : 0px;
+  background-color : #9A031E;
+}
+
+#box2
+{
+  background-color : #FB8B24;
+  margin-left : -1%;
+  padding-bottom : 60px;
+}
+  
+/*the images row for 2nd box page 2*/
+  #cute 
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  margin-top: 2em;
+}
+
+
+#myth
+  {
+    /*border: 5px solid black;*/
+    margin-left : 30px;
+    max-width : 220px;
+  }
+
+#youtube
+  {
+    font-size : 230%;
+    color : #5F0F40;
+    text-shadow : 2px 0px 0px white;
+    margin-top : -10px;
+    margin-bottom : 10px;
+  }
+
+#take-action-heading
+  {
+    text-align: center;
+    margin-top : 40px;
+    font-size : 300%;
+    margin-left : 20px;
+    text-shadow : 2px 0px 0px white;
+    color : #5F0F40;
+  }
+  
+/*where user writes*/
+#text
+  {
+    font-size : 70%;
+    margin-left : 20px;
+  }
+  /*names of the boxes where users write*/
+#name
+  {
+    font-size : 20px;
+    border-radius : 12px;
+    max-height : 45px;
+    width : 262px;
+    margin-top : 20px;
+  }
+
+  #location
+  {
+        font-size : 20px;
+    border-radius : 12px;
+    max-height : 45px;
+    width : 400px;
+    margin-left : 40px;
+  }
+  
+  
+  #person
+  {
+        font-size : 20px;
+    border-radius : 12px;
+    max-height : 45px;
+    width : 400px;
+    margin-bottom : 20px;
+    margin-left : 40px;
+  }
+
+   #info
+  {
+        font-size : 20px;
+    border-radius : 12px;
+    height : 100px;
+    width : 400px;
+    margin-left : 40px;
+    margin-top : 10px;
+  }
+/*preview message*/
+  #myButton, #myButton2
+  {
+    font-size : 100%;
+    margin-left : 50px;
+    margin-top : 40px;
+    background-color : #FB8B24;
+    border-radius : 12px;
+    color : white;
+    font-family : monospaced;
+  }
+
+
+#changeMessage
+  {
+    color : white;
+    font-size : 40%;
+    text-align : center;
+    margin-left : 10px;
+  }
+
+
+#pmessage, #pmessage2 
+  {
+    font-size : 50%;
+    text-align: center;
+    margin-bottom : -30px;
+    margin-left : 40px;
+    width : 400px;
+    padding-bottom : 20px;
+    
+  }
+/*send button*/
+ #send, #send2
+  {
+    font-size : 100%;
+    margin-left : 400px;
+    margin-top : 40px;
+    background-color : #FB8B24;
+    border-radius : 12px;
+    color : white;
+    font-family : monospaced;
+  }
+
+#sent_message, #sent_message2
+  {
+    font-size : 50%;
+    text-align: center;
+    margin-left : 50px;
+    width : 400px;
+    padding-bottom : 60px;
+    /*background-color : #E36414;*/
+  }
+
+  /* both boxes*/
+#actionBoxes
+    {
+      display : flex;
+      width : 800px;
+      border-bottom: 15px solid #E36414;
+      margin-bottom : -30px;
+    }
+    
+/*first box*/
+#takeAction
+  {
+    /*background-color : #9A031E;*/ 
+    background: linear-gradient(#FB8B24, #E36414);
+    width : 600px; /*px = fixed, 90% = adaptable*/
+    height : 90%;
+    margin-left : 90px;
+    padding-right : 40px;
+    margin-bottom : 30px;
+    margin-right : 70px;
+    /*box-shadow : 0px 15px 20px black;*/
+  }
+
+/*inner first box*/
+#tellus
+  {
+    margin-top : 0px;
+    background-color : #E36414;
+    font-size : 270%;
+    margin-left : 30px;
+    margin-right : -10px;
+    border-radius : 12px;
+    /*max-height : 99999999999px;*/
+  }
+  
+    
+/*2nd box*/
+#petition
+  {
+    /*background-color : #9A031E;*/
+    background: linear-gradient(#FB8B24, #E36414);
+    width : 600px;
+    height : 90%;
+    margin-left : 40px;
+    padding-left : 5px;
+    margin-bottom : 30px;
+    padding-right : 40px;
+    /*box-shadow : 0px 15px 20px black;*/
+
+  }
+
+/*inner second box*/
+#sign_petition
+  {
+    margin-top : 0px;
+    background-color : #E36414;
+    font-size : 270%;
+    margin-left : 30px;
+    margin-right : -10px;
+    border-radius : 12px;
+    /*max-height : 99999999999px;*/
+  }
+
+
+   #statement
+  {
+    font-size : 20px;
+    border-radius : 12px;
+    height : 327px;
+    width : 400px;
+    margin-left : 50px;
+    margin-top : 10px;
+  }
+ 
+  
+  #name_p
+  {
+        font-size : 20px;
+    border-radius : 12px;
+    max-height : 45px;
+    width : 275px;
+    margin-left : 0px;
+    margin-top : 20px;
+    
+  }
+  
+    /*top of page 2*/
+
+#topInfo
+  {
+    margin-bottom : 40px;
+    font-size : 100%;
+    width : 600px;
+  }
+  
+#signsBox
+  {
+    background-color : /*#9A031E*/#FB8B24;
+    padding-top : 20px;
+    padding-bottom : 30px;
+    margin-left : -10px;
+    padding-left : -10px;
+    text-align : center;
+    font-size : 150%;
+    color : black;
+  }
+#signsBox h1
+  {
+    text-shadow : 2px 0px 0px white;
+    color : #5F0F40;
+    margin-top : 10px;
+  }
+
+  #signsList
+  {
+    margin-bottom : 30px;
+    text-align : left;
+    font-size : 100%;
+    color : black;
+  }
+  
+/*page 3*/
+  
+  #img1
+  {
+    max-height : 200px;
+    max-width : 200px;
+    margin-top : 70px;
+    border-radius : 50%;
+    margin-bottom : 90px;
+    margin-left : 50px;
+  }
+  /*headings for images*/
+    #sh1
+  {
+    margin-top : 70px;
+    margin-left : 19px;
+  }
+  /*captions for images*/
+  #c1
+  {
+    margin-left : 20px;
+    width : 1000px;
+    color : black;
+  }
+  
+  #img2 
+  {
+    max-height : 200px;
+    max-width : 200px;
+    margin-left : 50px;
+    margin-bottom : 90px;
+    margin-top : 70px;
+  }
+  #img3
+  {
+    max-height : 200px;
+    max-width : 200px;
+    margin-left : 50px;
+    margin-top : 70px;
+    margin-bottom : 90px;
+  }
+  #img4 
+  {
+    height : 150px;
+    width : 150px;
+    margin-left : 50px;
+    border-radius : 50%;
+    object-fit:cover;
+    margin-top : 70px;
+    margin-bottom : 90px;
+  }
+
+  #row1, #row2, #row3
+  {
+    display : flex;
+    margin-left : 50px;
+    border-left : 10px solid white;
+    border-right : 10px solid white;
+    background-color : #FB8B24;
+    margin-bottom : -100px;
+    width : 1300px;
+    height : 300px;
+    margin-top : -10px;
+  }
+
+  /*heading for page 2 and page 3 = same*/
+  #topAction, #sh-titles
+  {
+    text-align : center;
+    text-shadow : 2px 0px 0px white;
+    color : #5F0F40;
+    margin-top : 10px;
+  }
+  #sh-titles1
+    {
+      text-align : center;
+       text-shadow : 2px 0px 0px white;
+      color : #5F0F40;
+     margin-top : 30px;
+    }
+
+  /*link for image 4*/
+  #suspect
+  {
+    color : black;
+    font-size : 90%;
+    text-decoration: underline;
+  }
+  #reportList
+  {
+    margin-bottom : 30px;
+    text-align : left;
+    font-size : 150%;
+    color : black;
+  }
+  #sh-top
+  {
+    background-color : #FB8B24;
+    padding-top : 30px;
+    padding-bottom : 30px;
+    margin-left : -10px;
+    margin-top : -30px;
+  }
+  #sh-bottom
+  {
+    background-color : #FB8B24;
+    padding-top : 30px;
+    padding-bottom : 30px;
+    margin-left : -10px;
+    margin-top : -30px;
+    padding-left : 20px;
+  }
+#sh-bottom p, #sh-bottom ul
+{
+  font-size : 150%;
+}
+
+/*smaller screen*/
+
+@media screen and (max-width : 850px)
+  {
+    #cute 
+    {
+      flex-wrap : wrap;
+    }
+    #factDisplay
+    {
+      margin-left : 30px;
+    }
+    
+    .box
+    {
+      margin-left : -10px;
+    }
+    
+    #vid
+    {
+      width : 500px;
+      margin-left : -10px;
+    }
+    #box2
+    {
+      margin-left : -9px;
+    }
+    #bottom
+    {
+      margin-left : -11px;
+    }
+    #tellus
+    {
+      margin-left : 30px;
+      width : 450px;
+      margin-bottom : 50px;
+    }
+    #sign_petition
+    {
+      margin-left : 30px;
+      width : 450px;
+      /*height : 830px;*/
+      /*max-height : 999999px;*/
+    }
+    #takeAction
+    {
+      width : 490px;
+      margin-left : 16px;
+      padding-right : -30px;
+      margin-bottom : 20px;
+      height : 90%;
+    }
+    #petition
+    {
+      width : 490px;
+      margin-left : 16px;
+      padding-right : 35px;
+      margin-bottom : 0px;
+      border-style : none;
+      
+    }
+    #name
+    {
+      width : 200px;
+    }
+    #location
+    {
+      max-width : 320px;
+    }
+    #person 
+    {
+      width : 320px;
+    }
+    #info, #name_p, #statement
+    {
+      margin-left : 20px;
+      max-width : 410px;
+    }
+    #myButton, #myButton2
+    {
+      margin-left : 20px;
+    }
+    #send
+    {
+      margin-left : 348px;
+    }
+    #send2
+    {
+      margin-top : 45px;
+      margin-left : 348px;
+    }
+    #changeMessage
+    {
+      margin-left : 6px;
+    }
+    #text
+    {
+      margin-left : 5px;
+    }
+    
+    .parallelogram
+    {
+      margin-left : 30px;
+      margin-top : -50px;
+    }
+    
+    .triangle-right
+    {
+      margin-left : 30px;
+    }
+
+    .parallelogram2
+    {
+      margin-left : 250px;
+      margin-top : 0px;
+      box-shadow : 5px 10px 15px black; 
+    }
+    
+    .triangle-right2
+    {
+      margin-left : 250px;
+      margin-top : -50px;
+    }
+    #petitionInfo
+    {
+      max-width : 400px;
+      margin-left : 80px;
+      margin-bottom : -50px;
+      color : white;
+    }
+    #actionBoxes
+    {
+      flex-wrap : wrap;
+      border-style : none;
+    }
+
+    #pmessage, #pmessage2, #sent_message, #sent_message2
+    {
+      margin-left : 4px;
+      width : 440px;
+    }
+    #bottom2
+    {
+      margin-top: 30px;
+      bottom : 0;
+      width : 580px;
+      margin-left : -10px;
+      padding-right : -60px;
+    }
+    #help1, #help2, #help3, #help4
+    {
+      margin-bottom : 20px;
+      margin-left : 90px;
+    }
+    #row1
+    {
+      margin-left : -10px;
+      width : 584px;
+      border-style : none;
+      padding-bottom : 200px;
+    }
+    #row2
+    {
+      margin-left : -10px;
+      width : 584px;
+      border-style : none;
+      padding-bottom : 0px;
+      margin-top : -50px;
+    }
+    #row3
+    {
+      margin-left : -10px;
+      width : 584px;
+      border-style : none;
+      padding-bottom : 0px;
+      margin-top : 30px;
+    }
+    #c1
+    {
+      width : 340px;
+      margin-bottom : 70px;
+    }
+    #sh-titles1
+    {
+      margin-top : 70px;
+    }
+    #sh-titles
+    {
+      width : 560px;
+    }
+    #sh-bottom
+    {
+      width : 560px;
+      padding-right : 4px;
+    }
+    #bottom, #bottom2
+    {
+      padding-left : 80px;
+      bottom : 0; 
+    }
+    hr.rounded_sh1, hr.rounded_sh2, hr.rounded_sh3, hr.rounded_sh4
+    {
+      display: none;
+    }
+    #topInfo
+    {
+      width : 500px;
+    }
+      #sh-top
+      {
+        padding-bottom : 1px;
+      }
+  }
+  
+
+/*colors*/
+  
+/*
+Purple : #5F0F40
+Red :  #9A031E
+Light O : #FB8B24
+Orange : #E36414
+Blue : #0F4C5C
+
+#1ba4e0
+#181b99
+
+*/
